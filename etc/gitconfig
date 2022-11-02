@@ -1,0 +1,16 @@
+alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.review=push origin HEAD:refs/for/master
+alias.co=checkout
+alias.cob=checkout -b
+alias.br=branch
+alias.st=status
+user.name=Anthony Murabito
+user.email=anthony.murabito@gmail.com
+pull.rebase=true
+push.default=current
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
