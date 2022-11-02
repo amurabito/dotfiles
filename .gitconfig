@@ -1,0 +1,17 @@
+[alias]
+	lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	review=push origin HEAD:refs/for/master
+	co=checkout
+	cob=checkout -b
+	br=branch
+	st=status
+
+[user]
+	email = anthony.murabito@gmail.com
+	name = Anthony Murabito
+
+[pull]
+	rebase = true
+
+[push]
+	default = current
